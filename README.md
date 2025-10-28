@@ -30,25 +30,32 @@ The model can explain its reasoning for any prediction. Here, it flags a connect
 ## 🚀 How to Run This Project
 
 ### 1. Clone the Repository
-```bash```
-git clone https://github.com/1nOnlyVishnu/XAI--Network-Intrusion-Detection.git
-```bash```
+```bash
+git clone https://github.com/1nOnlyVishnu/XAI--Network-Intrusion-Detection.git 
 cd XAI--Network-Intrusion-Detection
+```
 
 ### 2. Set up Environment
-```bash```
+```bash
 python -m venv env
-```bash```
+```
+
+## Activate the environment:
+```bash
 source env/bin/activate  # On Windows: env\Scripts\activate
-```bash```
+```
+
+## Install dependencies:
+```bash
 pip install -r requirements.txt
+```
 
 ### 3. Download the dataset
 The CIC-IDS2017 dataset is not included in this repository due to its size. You must download the "GeneratedLabelledFlows" CSV files from the official dataset page(https.www.unb.ca/cic/datasets/ids-2017.html).
 
 ### 4.Prepare the Project
-Create a folder named data in the root of the project.
-Place all the downloaded .csv files inside the data folder.
+* Create a folder named data in the root of the project.
+* Place all the downloaded .csv files inside the data folder.
 
 ### 5.Run the Notebook
 Launch the Jupyter server and run the notebook: jupyter notebook
