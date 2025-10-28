@@ -32,12 +32,15 @@ The model can explain its reasoning for any prediction. Here, it flags a connect
 ### 1. Clone the Repository
 ```bash```
 git clone https://github.com/1nOnlyVishnu/XAI--Network-Intrusion-Detection.git
+```bash```
 cd XAI--Network-Intrusion-Detection
 
 ### 2. Set up Environment
 ```bash```
 python -m venv env
+```bash```
 source env/bin/activate  # On Windows: env\Scripts\activate
+```bash```
 pip install -r requirements.txt
 
 ### 3. Download the dataset
