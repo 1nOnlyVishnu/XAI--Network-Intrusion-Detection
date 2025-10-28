@@ -58,5 +58,8 @@ The CIC-IDS2017 dataset is not included in this repository due to its size. You 
 * Place all the downloaded .csv files inside the data folder.
 
 ### 5.Run the Notebook
-Launch the Jupyter server and run the notebook: jupyter notebook
-Open the NIDS-Analysis.ipynb (or whatever you named it) and run all cells.
+*Launch the Jupyter server and run the notebook: 
+```bash
+jupyter notebook
+```
+*Open the NIDS-Analysis.ipynb (or whatever you named it) and run all cells.
